@@ -19,7 +19,7 @@ export default function CartCard({
   setId,
 }) {
   return (
-    <MDBCard className="rounded-3 mb-4" key={value?.id}>
+    <MDBCard className="rounded-3 mb-4 " key={value?.id}>
       <MDBCardBody className="p-4">
         <MDBRow className="justify-content-between align-items-center">
           <MDBCol md="2" lg="2" xl="2">
@@ -44,9 +44,7 @@ export default function CartCard({
               }}
             />
 
-            <MDBBtn color="link" className="px-2">
-              {value?.id}
-            </MDBBtn>
+            <MDBBtn color="link" className="px-2"></MDBBtn>
           </MDBCol>
           <MDBCol md="3" lg="2" xl="2" className="offset-lg-1">
             <MDBTypography tag="h5" className="mb-0">
